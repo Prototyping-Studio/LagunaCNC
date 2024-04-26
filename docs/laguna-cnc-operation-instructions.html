@@ -321,13 +321,11 @@
 <li data-line="11">Press &amp; hold green button on side of spindle</li>
 <li data-line="12"><span alt="PXL_20240319_172014827.jpg" src="PXL_20240319_172014827.jpg" class="internal-embed media-embed image-embed is-loaded" style="width: 300px; max-width: 100%;"><img alt="PXL_20240319_172014827.jpg" src="lib/media/pxl_20240319_172014827.jpg" style="width: 300px; max-width: 100%;"></span></li>
 <li data-line="13">Position tool holder under spindle head</li>
-<li data-line="14">Release green button
-<iframe allowfullscreen="" allow="encrypted-media;picture-in-picture" frameborder="0" title="YouTube video player" src="https://www.youtube.com/embed/HDV3oebI2bc?si=eQks8HYX6LS5_fYs" height="315" width="560" sandbox="allow-forms allow-presentation allow-same-origin allow-scripts allow-modals" loading="lazy"></iframe>
-</li>
-<li data-line="16">On the CNC screen, update the "current tool" number to reflect which tool position the new bit will be physically located in</li>
-<li data-line="17">Park tool </li>
-<li data-line="18">Execute "Automatic Touchoff"</li>
-<li data-line="19">Update Fusion cloud tool library to reflect new tool numbering</li>
+<li data-line="14">Release green button</li>
+</ul></div><div><p>![null][https://www.youtube.com/embed/HDV3oebI2bc?si=eQks8HYX6LS5_fYs]pdate the "current tool" number to reflect which tool position the new bit will be physically located in</p></div><div><ul>
+<li data-line="0">Park tool </li>
+<li data-line="1">Execute "Automatic Touchoff"</li>
+<li data-line="2">Update Fusion cloud tool library to reflect new tool numbering</li>
 </ul></div></div></div><div class="heading-wrapper"><h4 data-heading="General Tips" class="heading" id="General_Tips"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>General Tips</h4><div class="heading-children"><div><ul>
 <li data-line="0">It's often a good idea to "cut air" prior to cutting the actual material. This is accomplished by intentionally setting the material thickness in your Fusion360 setup to a value 2-3x larger than the actual material thickness. When the operation is run on the CNC, the bit should remain in the air rather than touching the material or spoilboard. By observing the "fake" cut (with the e-stop in hand), you visually verify the toolpaths are what you expect. This method can catch potential tool plunges or unit issue (mm vs inches). </li>
 <li data-line="1"><div class="list-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>The Laguna control panel has a "axis limit" setting which could be helpful in single bit operations. This could be set to the tool offset length, ensuring the gcode can't move the bit below the top of the spoilboard. The "check gcode" tool will throw a warning if the operation attempts to go below this limit.
