@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[PrototypingStudio]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>PrototypingStudio</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 26 Apr 2024 18:06:22 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 26 Apr 2024 18:06:21 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Laguna CNC Operation Instructions]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[PrototypingStudio]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>PrototypingStudio</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Fri, 26 Apr 2024 18:25:24 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Fri, 26 Apr 2024 18:25:24 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Laguna CNC Operation Instructions]]></title><description><![CDATA[ 
  <br><br><br><img alt="Pasted image 20240425125434.png" src="\lib\media\pasted-image-20240425125434.png"><br><br><img alt="Pasted image 20240425152111.png" src="\lib\media\pasted-image-20240425152111.png"><br><br><img alt="Pasted image 20240425152207.png" src="\lib\media\pasted-image-20240425152207.png"><br><br><img alt="PXL_20240319_145331118.jpg" src="\lib\media\pxl_20240319_145331118.jpg" style="width: 400px; max-width: 100%;"><br>
 <br>Tool rack has space for up to 8 tools, numbered 1-8 (left to right as viewed from front)
 <br><br><img alt="Pasted image 20240425144427.png" src="\lib\media\pasted-image-20240425144427.png"><br><br><img alt="Pasted image 20240425143741.png" src="\lib\media\pasted-image-20240425143741.png"><br><br><img alt="Pasted image 20240425164514.png" src="\lib\media\pasted-image-20240425164514.png"><br>
@@ -373,4 +373,26 @@ Emergency Stop (Optional, hopefully)
 <br>VERY IMPORTANT, DO NOT SKIP
 
 
-]]></description><link>docs\laguna-cnc-operation-instructions.html</link><guid isPermaLink="false">Docs/Laguna CNC Operation Instructions.md</guid><pubDate>Fri, 26 Apr 2024 18:02:26 GMT</pubDate><enclosure url="lib\media\pasted-image-20240425125434.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240425125434.png"&gt;&lt;/figure&gt;</content:encoded></item></channel></rss>
+]]></description><link>docs\laguna-cnc-operation-instructions.html</link><guid isPermaLink="false">Docs/Laguna CNC Operation Instructions.md</guid><pubDate>Fri, 26 Apr 2024 18:02:26 GMT</pubDate><enclosure url="lib\media\pasted-image-20240425125434.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240425125434.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Laguna Pre-Cut Checklist]]></title><description><![CDATA[ 
+ <br><br>
+<br>Origin located at BOTTOM of stock
+<br>Tool numbers up to date w/ installed bits
+<br>Contour cuts on correct side of cutting line (inside, outside)
+<br>Feed per tooth &lt; 0.01 // in general, soft materials such as foam can exceed this threshold
+<br>Simulation free of errors &amp; warnings
+<br>Laguna specific post processor used (output file has .PRG extension)
+<br>Post processor uses "DOCUMENT UNITS" setting
+<br><br>
+<br>X/Y zero point established
+<br>All bits zero'd via auto touchoff
+<br>Gcode verified
+<br>CNC bed clear except stock
+<br>Door to fabrication room closed
+<br>Everyone has appropriate PPE (glasses, headphones, mask)
+<br>Everyone located at a safe distance from CNC
+<br>Vacuum pump on
+<br>Stock secure to bed via vacuum pressure, double sided tape, tabs or fixture
+<br>Position rods lowered
+<br>Dust collection on
+<br>CNC operator within reach of an e-stop
+]]></description><link>docs\laguna-pre-cut-checklist.html</link><guid isPermaLink="false">Docs/Laguna Pre-Cut Checklist.md</guid><pubDate>Fri, 26 Apr 2024 17:09:36 GMT</pubDate></item></channel></rss>
