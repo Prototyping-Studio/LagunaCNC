@@ -1,4 +1,4 @@
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[PrototypingStudio]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>PrototypingStudio</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 06 May 2024 18:44:15 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 06 May 2024 18:44:14 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Laguna CNC Operation Instructions]]></title><description><![CDATA[ 
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[PrototypingStudio]]></title><description><![CDATA[Obsidian digital garden]]></description><link>http://github.com/dylang/node-rss</link><image><url>lib\media\favicon.png</url><title>PrototypingStudio</title><link/></image><generator>Webpage HTML Export plugin for Obsidian</generator><lastBuildDate>Mon, 06 May 2024 20:11:02 GMT</lastBuildDate><atom:link href="lib\rss.xml" rel="self" type="application/rss+xml"/><pubDate>Mon, 06 May 2024 20:11:02 GMT</pubDate><ttl>60</ttl><dc:creator/><item><title><![CDATA[Laguna CNC Operation Instructions]]></title><description><![CDATA[ 
  <br><br><br><img alt="Pasted image 20240425125434.png" src="\lib\media\pasted-image-20240425125434.png"><br><br><img alt="Pasted image 20240425152111.png" src="\lib\media\pasted-image-20240425152111.png"><br><br><img alt="Pasted image 20240425152207.png" src="\lib\media\pasted-image-20240425152207.png"><br><br><img alt="PXL_20240319_145331118.jpg" src="\lib\media\pxl_20240319_145331118.jpg" style="width: 400px; max-width: 100%;"><br>
 <br>Tool rack has space for up to 8 tools, numbered 1-8 (left to right as viewed from front)
 <br><br><img alt="Pasted image 20240425144427.png" src="\lib\media\pasted-image-20240425144427.png"><br><br><img alt="Pasted image 20240425143741.png" src="\lib\media\pasted-image-20240425143741.png"><br><br><img alt="Pasted image 20240425164514.png" src="\lib\media\pasted-image-20240425164514.png"><br>
@@ -47,7 +47,7 @@
 <br>If the model orientation doesn't fit within the specified stock, use a "Manufacturing Model" to rotate or re-arrange parts to fit.
 
 <br><a rel="noopener" class="external-link" href="https://help.autodesk.com/view/fusion360/ENU/?guid=MFG-MANUFACTURING-MODEL-OVERVIEW" target="_blank">https://help.autodesk.com/view/fusion360/ENU/?guid=MFG-MANUFACTURING-MODEL-OVERVIEW</a>
-<br>Manufacturing models are useful for "flat packing" designs without modifying the model
+<br>Manufacturing models are useful for <a data-tooltip-position="top" aria-label="Flat Packing a Design" data-href="#Flat Packing a Design" href="\#Flat_Packing_a_Design" class="internal-link" target="_self" rel="noopener">flat packing a design</a> without modifying the model
 
 <br><img alt="Pasted image 20240424141613.png" src="\lib\media\pasted-image-20240424141613.png">
 
@@ -132,6 +132,19 @@ Make sure "Cloud" templates are selected unless explicitly using a local templat
 <br>Select "Post" to generate the gcode
 <br>Copy the output file to a USB drive for use in the CNC Control System<br>
 <img alt="Pasted image 20240325134011.png" src="\lib\media\pasted-image-20240325134011.png">
+<br><br><br><br><br><br><br><br>
+<br>Turn on air pressure using wall mounted valve
+<br>Verify pressure (approx. 0.45 MPa)
+<br>Turn on main power
+<br>Switch key to "ON" (clockwise)
+<br>Press green power button
+<br>Wait for system to boot
+<br><br>
+<br>Park any installed tooling (Home screen &gt; Park)
+<br>Press green power button
+<br>Switch key to 'OFF' position (counter-clockwise)
+<br>Turn on main power
+<br>Turn off air
 <br><br>
 <br>
 Insert USB device into the control panel
@@ -237,19 +250,6 @@ Emergency Stop (Optional, hopefully)
 <br>Program stopped via E-Stop cannot be resumed (i.e. E-Stop is not a pause)
 
 
-<br><br><br><br><br><br>
-<br>Turn on air pressure using wall mounted valve
-<br>Verify pressure (approx. 0.45 MPa)
-<br>Turn on main power
-<br>Switch key to "ON" (clockwise)
-<br>Press green power button
-<br>Wait for system to boot
-<br><br>
-<br>Park any installed tooling (Home screen &gt; Park)
-<br>Press green power button
-<br>Switch key to 'OFF' position (counter-clockwise)
-<br>Turn on main power
-<br>Turn off air
 <br><br><br>
 <br>Proper work holding is critically important, particularly for small pieces. It is very easy for a piece to come lose and come into contact with the mill bit, causing damage to the work piece and potentially damage the bit.
 <br>There are many options for work holding including available and should be utilized on a per job basis.
@@ -361,7 +361,7 @@ Emergency Stop (Optional, hopefully)
 <br>Make sure origin is located at bottom of model
 
 
-<br>On Laguna Control Box
+<br>On Laguna Control Screen
 
 <br>Setup &gt; CNC Positions
 <br>Set 'Z-Spoil' to 0.0
@@ -369,12 +369,13 @@ Emergency Stop (Optional, hopefully)
 
 <br>Set X,Y zero point on corner of stock
 <br>Run program, should remove less than 1/8" of material
+<br><a data-tooltip-position="top" aria-label="Running Program" data-href="#Running Program" href="\#Running_Program" class="internal-link" target="_self" rel="noopener">Run the program</a>
 <br>After cut finishes, set 'Z-Spoil' to the stock thickness specified in Fusion
 
 <br>VERY IMPORTANT, DO NOT SKIP
 
 
-]]></description><link>docs\laguna-cnc-operation-instructions.html</link><guid isPermaLink="false">Docs/Laguna CNC Operation Instructions.md</guid><pubDate>Mon, 06 May 2024 18:43:24 GMT</pubDate><enclosure url="lib\media\pasted-image-20240425125434.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240425125434.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Laguna Pre-Cut Checklist]]></title><description><![CDATA[ 
+]]></description><link>docs\laguna-cnc-operation-instructions.html</link><guid isPermaLink="false">Docs/Laguna CNC Operation Instructions.md</guid><pubDate>Mon, 06 May 2024 20:10:36 GMT</pubDate><enclosure url="lib\media\pasted-image-20240425125434.png" length="0" type="image/png"/><content:encoded>&lt;figure&gt;&lt;img src="lib\media\pasted-image-20240425125434.png"&gt;&lt;/figure&gt;</content:encoded></item><item><title><![CDATA[Laguna Pre-Cut Checklist]]></title><description><![CDATA[ 
  <br><br>
 <br>Origin located at BOTTOM of stock
 <br>Tool numbers up to date w/ installed bits
